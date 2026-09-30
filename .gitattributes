@@ -1,0 +1,4 @@
+# Store the generated pages exactly as build_specs.py writes them (LF), with
+# no line-ending conversion on any machine: a regenerated page that did not
+# change is byte-identical, and the diff shows only real changes.
+public/** -text

@@ -1,0 +1,14 @@
+{
+  // The owner's-manual specs pages, served at artificiallygreasy.com/specs*.
+  // Everything else on the hostname is the main site's Worker
+  // (artificially-greasy, repository Semi-Synthetic-Intelligence).
+  "name": "artificially-greasy-specs",
+  "compatibility_date": "2026-08-29",
+  "assets": {
+    // Written by the main repository's scripts/build_specs.py; never edited here.
+    "directory": "./public"
+  },
+  "routes": [
+    { "pattern": "artificiallygreasy.com/specs*", "zone_name": "artificiallygreasy.com" }
+  ]
+}
